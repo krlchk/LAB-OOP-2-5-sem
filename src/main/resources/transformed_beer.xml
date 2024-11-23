@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><TransformedBeer>
+    <BeerGroup>
+        <Type>light</Type>
+        <Beers>
+            <Beer>
+                <Id>beer1</Id>
+                <Name>Golden Ale</Name>
+                <Al>alcoholic</Al>
+                <Manufacturer>Gold Brewery</Manufacturer>
+                <Ingredients>
+                    <Ingredient>water</Ingredient>
+                    <Ingredient>barley malt</Ingredient>
+                    <Ingredient>hops</Ingredient>
+                </Ingredients>
+                <Chars>
+                    <Transparency>85</Transparency>
+                    <Filtered>yes</Filtered>
+                    <NutritionalValue>43</NutritionalValue>
+                    <BottlingMethod>
+                        <Volume>0.5</Volume>
+                        <Material>glass</Material>
+                    </BottlingMethod>
+                </Chars>
+            </Beer>
+            <Beer>
+                <Id>beer3</Id>
+                <Name>Live Lager</Name>
+                <Al>non-alcoholic</Al>
+                <Manufacturer>Fresh Hops Brewery</Manufacturer>
+                <Ingredients>
+                    <Ingredient>water</Ingredient>
+                    <Ingredient>wheat malt</Ingredient>
+                    <Ingredient>hops</Ingredient>
+                    <Ingredient>yeast</Ingredient>
+                </Ingredients>
+                <Chars>
+                    <Transparency>90</Transparency>
+                    <Filtered>yes</Filtered>
+                    <NutritionalValue/>
+                    <BottlingMethod>
+                        <Volume>1.0</Volume>
+                        <Material>plastic</Material>
+                    </BottlingMethod>
+                </Chars>
+            </Beer>
+        </Beers>
+    </BeerGroup>
+    <BeerGroup>
+        <Type>dark</Type>
+        <Beers>
+            <Beer>
+                <Id>beer2</Id>
+                <Name>Dark Stout</Name>
+                <Al>alcoholic</Al>
+                <Manufacturer>Black Rock Brewery</Manufacturer>
+                <Ingredients>
+                    <Ingredient>water</Ingredient>
+                    <Ingredient>roasted barley</Ingredient>
+                    <Ingredient>hops</Ingredient>
+                </Ingredients>
+                <Chars>
+                    <Transparency>30</Transparency>
+                    <Filtered>no</Filtered>
+                    <NutritionalValue>60</NutritionalValue>
+                    <BottlingMethod>
+                        <Volume>0.33</Volume>
+                        <Material>can</Material>
+                    </BottlingMethod>
+                </Chars>
+            </Beer>
+        </Beers>
+    </BeerGroup>
+</TransformedBeer>

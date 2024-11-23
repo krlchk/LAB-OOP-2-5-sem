@@ -1,0 +1,68 @@
+<Beer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="beer.xsd">
+    <beer>
+        <id>beer1</id>
+        <name>Golden Ale</name>
+        <type>light</type>
+        <al>alcoholic</al>
+        <manufacturer>Gold Brewery</manufacturer>
+        <ingredients>
+            <ingredient>water</ingredient>
+            <ingredient>barley malt</ingredient>
+            <ingredient>hops</ingredient>
+        </ingredients>
+        <chars>
+            <revolutions>5.2</revolutions>
+            <transparency>85</transparency>
+            <filtered>yes</filtered>
+            <nutritionalValue>43</nutritionalValue>
+            <bottlingMethod>
+                <volume>0.5</volume>
+                <material>glass</material>
+            </bottlingMethod>
+        </chars>
+    </beer>
+    <beer>
+        <id>beer2</id>
+        <name>Dark Stout</name>
+        <type>dark</type>
+        <al>alcoholic</al>
+        <manufacturer>Black Rock Brewery</manufacturer>
+        <ingredients>
+            <ingredient>water</ingredient>
+            <ingredient>roasted barley</ingredient>
+            <ingredient>hops</ingredient>
+        </ingredients>
+        <chars>
+            <revolutions>6.0</revolutions>
+            <transparency>30</transparency>
+            <filtered>no</filtered>
+            <nutritionalValue>60</nutritionalValue>
+            <bottlingMethod>
+                <volume>0.33</volume>
+                <material>can</material>
+            </bottlingMethod>
+        </chars>
+    </beer>
+    <beer>
+        <id>beer3</id>
+        <name>Live Lager</name>
+        <type>light</type>
+        <al>non-alcoholic</al>
+        <manufacturer>Fresh Hops Brewery</manufacturer>
+        <ingredients>
+            <ingredient>water</ingredient>
+            <ingredient>wheat malt</ingredient>
+            <ingredient>hops</ingredient>
+            <ingredient>yeast</ingredient>
+        </ingredients>
+        <chars>
+            <transparency>90</transparency>
+            <filtered>yes</filtered>
+            <bottlingMethod>
+                <volume>1.0</volume>
+                <material>plastic</material>
+            </bottlingMethod>
+        </chars>
+    </beer>
+</Beer>
